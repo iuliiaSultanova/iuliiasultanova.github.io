@@ -533,14 +533,14 @@ body {
   padding-top: var(--section-pb);
   padding-bottom: var(--section-pb);
   overflow: hidden;
-  background-image: url(../img/section-new.jpg);
+  background-image: url(img/section-new.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 @media (max-width: 1024px) {
   .new {
-    background-image: url(../img/section-new_tab.jpg);
+    background-image: url(img/section-new_tab.jpg);
   }
 }
 .new__title {
@@ -550,7 +550,7 @@ body {
   line-height: 100%;
   font-weight: 500;
   color: var(--text-white);
-  background-image: url(../img/svgicons/star.svg);
+  background-image: url(img/svgicons/star.svg);
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 80px 80px;
