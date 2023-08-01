@@ -533,7 +533,7 @@ body {
   padding-top: var(--section-pb);
   padding-bottom: var(--section-pb);
   overflow: hidden;
-  background-image: url(img/section-new.jpg);
+  background-image: url(./img/section-new.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
