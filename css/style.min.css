@@ -52,6 +52,10 @@ body {
   font-family: "Raleway Regular";
 }
 
+p, h1, h2, h3 {
+  margin: 0;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -118,6 +122,7 @@ body {
 .btn--green:active {
   color: var(--text-white);
   background-color: var(--dark-green);
+  outline: 1px solid var(--deep-green);
 }
 
 .btn--yellow {
