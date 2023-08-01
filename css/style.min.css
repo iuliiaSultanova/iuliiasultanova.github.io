@@ -108,7 +108,7 @@ p, h1, h2, h3 {
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, outline 0.3s ease-in-out;
 }
 .btn--green:focus {
-  outline: none;
+  outline: 1px solid var(--deep-green);
 }
 .btn--green:focus-visible {
   background-color: var(--soft-green);
@@ -131,7 +131,7 @@ p, h1, h2, h3 {
   transition: background-color 0.3s ease-in-out, outline 0.3s ease-in-out;
 }
 .btn--yellow:focus {
-  outline: none;
+  outline: 1px solid var(--mustard-yellow);
 }
 .btn--yellow:focus-visible {
   outline: 1px solid var(--mustard-yellow);
